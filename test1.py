@@ -1,8 +1,6 @@
-from email import message
-
-
-message = input(">")
-words = message.split(" ")
-emojis = {
-    ":)" : "1"
-}
+class Person():
+    def name(self, name):
+        self.name = name
+        
+chin = Person("Chinmay Parab")
+print(chin.name)
