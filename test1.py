@@ -1,5 +1,8 @@
-num = [5,2,5,2,2]
+from email import message
 
-for i in range(5):
-    num1 = num[i]
-    print("#"*num1)
+
+message = input(">")
+words = message.split(" ")
+emojis = {
+    ":)" : "1"
+}
